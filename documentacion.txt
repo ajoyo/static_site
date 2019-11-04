@@ -1,0 +1,45 @@
+DOCUMENTACIÓN DEL SITIO WEB ESTÁTICO HECHO POR ANDRÉ JOYO.
+
+Prioridad de tareas: Por orden en que aparecen listadas.
+
+Tareas a realizar:
+	-Crear repositorio en GITHUB y clonarlo en mi PC.
+
+	-Realizar página base, con características comunes a todas las páginas
+		-Cabecera
+			-Logo de la empresa
+			-Menú de navegación
+		-Breadcrumb------------------------------------------------------------------HECHO
+		-Footer----------------------------------------------------------------------HECHO
+	
+	-Crear archivo CSS principal
+	
+	-HOME
+		-Slider
+		-Contenidos destacados
+		-Crear archivo CSS específico de HOME
+	
+	-QUIENES SOMOS
+		-Presentación de la compañía
+		-Inserción de vídeo de youtube
+		-Crear archivo CSS específico de QUIENES SOMOS
+	
+	-SERVICIOS
+		-Listado de servicios principales
+		-Crear archivo CSS específico de SERVICIOS
+			-Página de cada servicio
+			-Crear archivo CSS específico de cada página de servicio------------------------------HECHO
+
+	-GALERÍA
+		-Crear página de galería
+		-Crear archivo CSS de galería
+		-Crear archivo JS para ampliar imágenes de galería
+	
+	-FORMULARIOS
+		-Crear páginas de formularios
+		-Crear archivo CSS para formularios
+	
+	Irresuelto: favicon
+	Pendiente: investigar sobre atributo async de <script>
+
+Herramientas usadas: VS code, Sublime Text, GIT, GITHUB, terminal de GIT, Navegadores web(Chrome, Mozilla Firefox, IE), GIT, StackOverflow, W3schools, otras webs.
