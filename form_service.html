@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>INFO SERVICE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body class="info_service">
+    <header>
+        <div class="logo">
+            <img src="https://s1.logaster.com/static/v3/img/products/logo.png" alt="logo" width="100%">
+        </div>
+        <nav>
+            <ul>
+                <li class="naveg"><a href="home.html">HOME</a></li>
+                <li class="naveg"><a href="we.html">ABOUT US</a></li>
+                <li class="naveg"><a href="services.html">SERVICES</a>
+                    <ul class="nav_services">
+                        <li><a href="services/cleaning.html">CLEANING</a></li>
+                        <li><a href="services/security.html">SECURITY</a></li>
+                        <li><a href="services/maintenance.html">MAINTENANCE</a></li>
+                        <li><a href="services/welfare.html">WELFARE</a></li>
+                    </ul>
+                </li>
+                <li class="naveg"><a href="gallery.html">GALLERY</a></li>
+                <li class="naveg"><a>ABOUT</a>
+                    <ul class="nav_services">
+                        <li><a href="form_service.html">SERVICE</a></li>
+                        <li><a href="form_info.html">OTHER</a></li>
+                    </ul>
+                </li>
+                <li class="naveg_button"><button><img src="https://image.flaticon.com/icons/png/512/56/56763.png" alt="button_menu" width="100%"></button></li>
+            </ul>
+        </nav>
+        <div class="breadcrumb clear">
+            <ul class="breadcrumb">
+                <li><a href="home.html">Home</a></li>
+                <li><a>SERVICE INFORMATION</a></li>
+            </ul>
+        </div>
+    </header>
+    <h2>Contact us about a service</h2>
+    <form action="processing.php" method="post" onsubmit="validar()">
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="text" name="last_name" id="last_name" placeholder="Last Name">
+        <input type="number" name="phone" id="phone" placeholder="Phone">
+        <input type="text" name="mail" id="mail" placeholder="E-mail">
+        <select name="service" id="service">
+            <option value="cleaning">Cleaning</option>
+            <option value="security">Security</option>
+            <option value="maintenance">Maintenance</option>
+            <option value="welfare">Welfare</option>
+        </select>
+        <textarea name="message" id="message" cols="23" rows="10" placeholder="Message"></textarea>
+        <input type="submit" value="Send">
+    </form>
+    <footer class="clear">
+        <p>Posted by: André Joyo</p>
+        <p>Contact information: 
+            <a href="mailto:someone@example.com">someone@example.com</a>.
+        </p> 
+    </footer>
+    <script src="gallery.js"></script>
+</body>
+</html>

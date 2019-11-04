@@ -1,0 +1,150 @@
+/*>180px*/
+body{
+    background-color: whitesmoke;
+}
+ul{
+    list-style: none;
+}
+li, ul{
+    margin: 0;
+    padding: 0;
+}
+ul .naveg ul li{
+    text-align: left;
+}
+.naveg .nav_services {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+ul .naveg:hover > ul {
+    display:block;
+    width: 80px;
+}
+nav{
+    /*background-color: peachpuff;*/
+    padding: 7px 0;
+    width: 80%;
+    float: left;
+}
+.logo{
+    width: 20%;
+    background-color: crimson;
+    float: left;
+}
+.naveg{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.naveg_button{
+    display: none;
+    width: 20%;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+h2{
+    text-align: center;
+}
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+footer{
+    border-top: 1px solid #01447e;
+}
+@media (max-width:280px){
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    .naveg{
+        font-size: 0.6em;
+        display: none;
+    }
+    .naveg_button{
+        display: inline;
+    }
+}
+@media (min-width:280px) and (max-width:590px){
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    .naveg{
+        font-size: 0.6em;
+        display: none;
+    }
+    .naveg_button{
+        display: inline;
+    }
+}
+@media (min-width:590px) and (max-width:880px){
+    body{
+        width: 90%;
+        margin: 0 5%;;
+    }
+    nav{
+        padding: 37px 0;
+    }
+}
+@media (min-width:880px) and (max-width:1170px){
+    body{
+        width: 80%;
+        margin: 0 10%;
+    }
+    nav{
+        padding: 53px 0;
+    }
+    .images{
+        clear: both;
+    }
+    
+}
+@media (min-width:1170px) and (max-width:1460px){
+    body{
+        width: 74%;
+        margin: 0 13%;
+    }
+    nav{
+        padding: 75px 0;
+    }   
+}
+@media (min-width:1460px){
+    body{
+        width: 70%;
+        margin: 0 15%;
+    }
+    nav{
+        padding: 79px 0;
+    }
+}

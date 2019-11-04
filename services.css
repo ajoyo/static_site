@@ -1,0 +1,76 @@
+.services{
+    background-color: blanchedalmond;
+    margin-top: 10px;
+}
+.services h2{
+    background-color: blueviolet;
+    margin-top: 0px;
+}
+.services p{
+    margin-top: -10px;
+}
+.service .sub_service{
+    height: 375px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.sub_service div{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(10,10,10,0.4);
+}
+.sub_service h2{
+    background-color: teal;
+}
+.sub_service h2, .sub_service p{
+    color: seashell;
+}
+@media (max-width:280px){
+    .sub_service h2{
+        font-size: 1em;
+    }
+    .services h2{
+        font-size: 1em;
+    }
+}
+@media (min-width:880px) and (max-width:1170px){
+    .services{
+        width: 50%;
+        height: 325px;
+        float: left;
+    }
+    .services img{
+        height: 195px;
+    }
+    .sub_service{
+        width: 50%;
+        float: left;
+    }
+    .sub_service div{
+        height: 200px;
+    }
+}
+@media (min-width:1170px) and (max-width:1460px){
+    .services{
+        width: 50%;
+        height: 325px;
+        float: left;
+    }
+    .services img{
+        height: 225px;
+    }
+    .sub_service{
+        width: 50%;
+        float: left;
+    }
+}
+@media (min-width:1460px){
+}
+
+.nav_services{
+    z-index: 100;
+}
+.sub_service div{
+    width: 100%;
+}
